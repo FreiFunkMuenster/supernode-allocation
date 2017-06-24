@@ -51,7 +51,7 @@ levels(total$gw1) <- levels(sn$name)
 levels(total$gw2) <- levels(sn$name)
 
 # assign the supernodes to the domains
-# Beginning with the 'largest' domain, the two supernodes with most available capacity is assigned to that domain. 
+# Beginning with the 'largest' domain, the two supernodes with most available capacity are assigned to that domain. 
 # If the domain has a higher value for its traffic, the first and third ranked supernode with highest traffic capacity are assigend
 # In the case that those two supernodes are located on the same physical server, the first and second supernodes are used.
 # If the domain has a higher value for its L2TP connection count, the first and second supernodes with highest L2TP capacity are assigend. 
